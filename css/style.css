@@ -1,0 +1,51 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #7800ee;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:focus {
+  color: white;
+}
+
+#quote-wrapper {
+  background-color: inherit !important;
+}
+
+#main-quote {
+  font-size: 75px !important;
+  transition: all 2s linear;
+  display: block;
+}
+
+#slpash-icon {
+  font-size: 85px;
+}
+
+#author-wrapper {
+  font-size: 25px;
+}
+
+.visuallyhidden {
+  opacity: 0;
+}
+
+.hidden-custom {
+  display: none;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
